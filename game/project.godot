@@ -1,0 +1,33 @@
+; Recall Quest - native offline game
+config_version=5
+
+[application]
+config/name="Recall Quest"
+config/version="1.2.0"
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.6", "GL Compatibility")
+config/icon="res://assets/icon.svg"
+
+[display]
+window/size/viewport_width=420
+window/size/viewport_height=840
+window/size/window_width_override=480
+window/size/window_height_override=860
+window/size/min_width=360
+window/size/min_height=600
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=1
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+textures/vram_compression/import_etc2_astc=true
+environment/defaults/default_clear_color=Color(0.035, 0.055, 0.10, 1)
+
+[gui]
+theme/default_font_multichannel_signed_distance_field=true
+
+[input_devices]
+pointing/emulate_mouse_from_touch=true

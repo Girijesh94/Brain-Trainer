@@ -1,0 +1,12 @@
+game/.godot/
+tools/godot/
+tools/templates/
+tools/android-sdk/
+tools/android-command-unpack/
+tools/jdk/
+tools/*.zip
+tools/*.keystore
+tools/android-paths.json
+tools/android_export_plugin.cpp
+builds/
+*.log
